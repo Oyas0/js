@@ -15,5 +15,9 @@ var computer = {
     price: 64000,
     stroge: '100GB',
     color: 'OffWhite',
+    processor:'i5'
 
 }
+ console.log(computer.price);
+ computer.processor = 'i10';
+ console.log(computer);
