@@ -90,11 +90,11 @@
 // }
 
 
-function sumofNumber(number){
-    let sum = 0;
-    for (let i = 0; i <= 8; i++) {
-        sum = sum + 1;
-        console.log(i,sum);
-    }
-    return sum;
-}
+// function sumofNumber(number){
+//     let sum = 0;
+//     for (let i = 0; i <= 8; i++) {
+//         sum = sum + 1;
+//         console.log(i,sum);
+//     }
+//     return sum;
+// }
