@@ -1,170 +1,170 @@
 // 1. জাভাস্ক্রিপ্ট কি জিনিস এইটা কি জানো?
-  জাভাস্ক্রিপ্ট একটি স্ক্রিপ্টি ং বা প্রোগ্রামি ং ভাষা যা আপনাকে ওয়েব পৃষ্ঠাগুলি তে জটিল বৈশিষ্ট্যগুলি প্রয় োগ করতে দেয়।
-উদাহরণ ঃ
-সময়মত কন্টেন্ট আপডেট, ইন্টারেক্টিভ ম্যাপ, অ্যানিমেটেড 2D/3D গ্রাফিক্স, স্ক্রলি ং ভিডিও ইত্যাদি প্রদর্শন করা।
-জাভাস্ক্রিপ্ট 1995 সালে ব্রেন্ডন আইক দ্বারা উদ্ভাবিত হয়েছিল। এটি নেটস্কেপ 2-এর জন্য তৈরি করা হয়েছিল এবং 1997
-সালে ECMA-262 স্ট্যান্ডার্ডে পরিণত হয়েছিল।
+    জাভাস্ক্রিপ্ট একটি স্ক্রিপ্টি ং বা প্রোগ্রামি ং ভাষা যা আপনাকে ওয়েব পৃষ্ঠাগুলি তে জটিল বৈশিষ্ট্যগুলি প্রয় োগ করতে দেয়।
+    উদাহরণ ঃ
+    সময়মত কন্টেন্ট আপডেট, ইন্টারেক্টিভ ম্যাপ, অ্যানিমেটেড 2D/3D গ্রাফিক্স, স্ক্রলি ং ভিডিও ইত্যাদি প্রদর্শন করা।
+    জাভাস্ক্রিপ্ট 1995 সালে ব্রেন্ডন আইক দ্বারা উদ্ভাবিত হয়েছিল। এটি নেটস্কেপ 2-এর জন্য তৈরি করা হয়েছিল এবং 1997
+    সালে ECMA-262 স্ট্যান্ডার্ডে পরিণত হয়েছিল।
 
  
 // 2.জাভাস্ক্রিপ্ট কিভাবে কাজ করে সেটা কি জানো?
- জাভাস্ক্রিপ্ট একটি interpreted language. এটি compiled languag নয় যেমনটা c,c++,java। Environment or
-browser এ একটি ইঞ্জিন থাকা দরকার, যা মানবপাঠ যোগ্য সিনট্যাক্সে লেখা JS কোড নেয় এবং এটিকে মেশিনকোডে পরিণত করে । Chrome এর ক্ষেত্রে এই ইঞ্জিনটির নাম V8, firefox এ SpiderMonkey ইত্যাদি ।
+    জাভাস্ক্রিপ্ট একটি interpreted language. এটি compiled languag নয় যেমনটা c,c++,java। Environment or
+    browser এ একটি ইঞ্জিন থাকা দরকার, যা মানবপাঠ যোগ্য সিনট্যাক্সে লেখা JS কোড নেয় এবং এটিকে মেশিনকোডে পরিণত করে । Chrome এর ক্ষেত্রে এই ইঞ্জিনটির নাম V8, firefox এ SpiderMonkey ইত্যাদি ।
 
  
 // 3.ভেরিয়েবল কি জিনিস?
- ভেরিয়েবল মানে যা পরিবর্তিত হতে পারে । জাভাস্ক্রিপ্টে , একটি ভেরিয়েবল ডেটা মান সংরক্ষণ করে যা পরে পরিবর্তন করা যেতে পারে । জাভাস্ক্রিপ্টে একটি ভেরিয়েবল ঘোষণা করতে সংরক্ষিত কীওয়ার্ড var ব্যবহার করতে হয়।
- 
-*উদাহরণঃ- var favouriteFootballer = "Casemiro";
- 
+        ভেরিয়েবল মানে যা পরিবর্তিত হতে পারে । জাভাস্ক্রিপ্টে , একটি ভেরিয়েবল ডেটা মান সংরক্ষণ করে যা পরে পরিবর্তন করা যেতে পারে । জাভাস্ক্রিপ্টে একটি ভেরিয়েবল ঘোষণা করতে সংরক্ষিত কীওয়ার্ড var ব্যবহার করতে হয়।
+    
+        *উদাহরণঃ- var favouriteFootballer = "Casemiro";
+    
 // 4.ভেরিয়েবল কিভাবে ডিক্লেয়ার করে ??
-পাঁচটি কাজ করে একটি ভে রি য়ে বল ডি ক্লে য়ার করা যায়।
-● প্রথমে var keyword,
-● Meaningful ভে রি য়ে বল নাম,
-● ( = ) sign দি তে হবে ,
-● মান সংরক্ষণ,
-● ( ; ) sign দি তে হবে (optional)।
+        পাঁচটি কাজ করে একটি ভে রি য়ে বল ডি ক্লে য়ার করা যায়।
+        ● প্রথমে var keyword,
+        ● Meaningful ভে রি য়ে বল নাম,
+        ● ( = ) sign দি তে হবে ,
+        ● মান সংরক্ষণ,
+        ● ( ; ) sign দি তে হবে (optional)।
 
-উদাহরণঃ- var favoriteClub = "Real Madrid C.F.";
+        উদাহরণঃ- var favoriteClub = "Real Madrid C.F.";
 
 
 // 5.ভেরিয়েবল এর মান কিভাবে চেইঞ্জ করে বা আপডেট করে। 
-২ ভাবে মান পরিবর্তন করা যায়,২টা variation আছে ভেরিয়েবল পরিবর্তন করার।
-no1-
-প্রথমে ভেরিয়েবল ডিক্লেয়ার করতে হবে . তারপর চেইঞ্জ করতে বাকি সব ঠিক রেখে শুধুমানটা পরিবর্তন করতে হয়।
-যেমনঃ
-ডিক্লেয়ারঃ
-var holiday = "Friday";
-চেইঞ্জঃ
-var holiday = "Sunday";
-এমনটা শুধু var keyword এর ক্ষেত্রে হবে । এটি Recommended না।
+    ২ ভাবে মান পরিবর্তন করা যায়,২টা variation আছে ভেরিয়েবল পরিবর্তন করার।
+        no1-
+        প্রথমে ভেরিয়েবল ডিক্লেয়ার করতে হবে . তারপর চেইঞ্জ করতে বাকি সব ঠিক রেখে শুধুমানটা পরিবর্তন করতে হয়।
+        যেমনঃ
+        ডিক্লেয়ারঃ
+        var holiday = "Friday";
+        চেইঞ্জঃ
+        var holiday = "Sunday";
+        এমনটা শুধু var keyword এর ক্ষেত্রে হবে । এটি Recommended না।
 
-প্রথমে ভেরিয়েবল ডিক্লেয়ার করতে হবে . তারপর চেইঞ্জ করতে ভার keyword বাদ দিয়ে বাকি সব ঠিক রেখে শুধু
-মানটা পরিবর্তন করতে হয়।
-যেমনঃ
-ডিক্লেয়ারঃ
-var holiday = "Friday";
-চেইঞ্জঃ
-holiday = "Sunday";
-এটি Recommended।
+        প্রথমে ভেরিয়েবল ডিক্লেয়ার করতে হবে . তারপর চেইঞ্জ করতে ভার keyword বাদ দিয়ে বাকি সব ঠিক রেখে শুধু
+        মানটা পরিবর্তন করতে হয়।
+        যেমনঃ
+        ডিক্লেয়ারঃ
+        var holiday = "Friday";
+        চেইঞ্জঃ
+        holiday = "Sunday";
+        এটি Recommended।
 
 // 6.কি কি ধরণের ভেরিয়েবল হয়। সেগুলা কি কি (হিন্টস: Numeric, String, Boolean)
-জাভাস্ক্রিপ্ট আপনাকে তিনটি প্রিমিটিভ ডেটা প্রকারের সাথে কাজ করতে দেয়: সংখ্যা, স্ট্রি ং, এবং বুলিয়ান। জাভাস্ক্রিপ্ট আরও দটিু ডেটা প্রকারকে ও সংজ্ঞায়িত করে , নাল এবং আনডিফাইন্ড।
+    জাভাস্ক্রিপ্ট আপনাকে তিনটি প্রিমিটিভ ডেটা প্রকারের সাথে কাজ করতে দেয়: সংখ্যা, স্ট্রি ং, এবং বুলিয়ান। জাভাস্ক্রিপ্ট আরও দটিু ডেটা প্রকারকে ও সংজ্ঞায়িত করে , নাল এবং আনডিফাইন্ড।
 
-    ● সংখ্যা যেমন ১,৩২,৫৪।
-    ● স্ট্রি ং যেমন "রহিম","কারিম" ইত্যাদি ।
-    ● বলিুলিয়ান যেমন true, false ।
-    ● নাল বলতে কনো মান নেই। (একটু confusing)
-    ● আন্ডি ফাইন্ড বলতে বুঝায় মান আছে কিন্তু তা জানা নাই। (একটুconfusing)
+        ● সংখ্যা যেমন ১,৩২,৫৪।
+        ● স্ট্রি ং যেমন "রহিম","কারিম" ইত্যাদি ।
+        ● বলিুলিয়ান যেমন true, false ।
+        ● নাল বলতে কনো মান নেই। (একটু confusing)
+        ● আন্ডি ফাইন্ড বলতে বুঝায় মান আছে কিন্তু তা জানা নাই। (একটুconfusing)
 
 
 // 7.জাভাস্ক্রিপ এ primitive and non primitive data types কি কি ? উদাহরণ হিসেবে বলো। 
-সুতরাং primitive এবং non-primitive মধ্যে মৌলিক পার্থক্য হল ঃ
-    ১- primitive মানগুলি অপরিবর্তনীয় এবং non-primitive মানগুলি পরিবর্তনযোগ্য।
-    ২- primitive মান দ্বারা সংরক্ষণ করা হয় non-primitive রেফারেন্স দ্বারা সংরক্ষণ করা হয়।
-    ৩-জাভাস্ক্রিপ্টের primitive ডেটা প্রকারের মধ্যে রয়েছে সংখ্যা, স্ট্রি ং, বলিুলিয়ান, অনির্ধারিত, নাল । নন-প্রিমিটিভ ডেটা টাইপের মধ্যে রয়েছে অ্যারে ,অবজেক্ট।
+    সুতরাং primitive এবং non-primitive মধ্যে মৌলিক পার্থক্য হল ঃ
+        ১- primitive মানগুলি অপরিবর্তনীয় এবং non-primitive মানগুলি পরিবর্তনযোগ্য।
+        ২- primitive মান দ্বারা সংরক্ষণ করা হয় non-primitive রেফারেন্স দ্বারা সংরক্ষণ করা হয়।
+        ৩-জাভাস্ক্রিপ্টের primitive ডেটা প্রকারের মধ্যে রয়েছে সংখ্যা, স্ট্রি ং, বলিুলিয়ান, অনির্ধারিত, নাল । নন-প্রিমিটিভ ডেটা টাইপের মধ্যে রয়েছে অ্যারে ,অবজেক্ট।
 // 8.ভেরিয়েবল এর নাম কিভাবে কিভাবে ডিক্লেয়ার করতে হয়। কোন কোন জিনিস নাম এ লেখা যাবে না। অর্থাৎ Variable এর naming convention সম্পর্কে বলো। 
-ভেরিয়েবল এর নাম কিভাবে কিভাবে  ডিক্লেয়ার করতে হয়। এর উত্তর ৪ নং প্রশ্নে দেয়া হয়েছে । 
-    কোন জিনিস লেখা যাবে নাহ??
-    ● শুরুতে নাম্বার ($ ও _ বাদে ) অন্য কোন character ব্যাবহার করা যাবে না।
-    ● স্ট্রি ং ব্যাবহার করা যাবে না।
-    ● কোন Reserved keyword ব্যাবহার করা যাবে না।
-    ● ক্যামেলকেস ব্যাবহার করা ভাল।
-    ● Meaningful নাম দেয়া ভাল।
+    ভেরিয়েবল এর নাম কিভাবে কিভাবে  ডিক্লেয়ার করতে হয়। এর উত্তর ৪ নং প্রশ্নে দেয়া হয়েছে । 
+        কোন জিনিস লেখা যাবে নাহ??
+        ● শুরুতে নাম্বার ($ ও _ বাদে ) অন্য কোন character ব্যাবহার করা যাবে না।
+        ● স্ট্রি ং ব্যাবহার করা যাবে না।
+        ● কোন Reserved keyword ব্যাবহার করা যাবে না।
+        ● ক্যামেলকেস ব্যাবহার করা ভাল।
+        ● Meaningful নাম দেয়া ভাল।
 
 
 // 9.দুইটা ভেরিয়েবল এর মধ্যে =, -, *, /, % কিভাবে করে? 
-(=) এইটা আসাইনমেন্ট অপারেটর(একটির মান অন্য একটিতে বসানো), (-) বিয়োগ অপারেটর, (*) গুন অপারেটর, (/)ভাগ অপারেটর, (%) মডুলাস অপারেটর।
- উদাহরণঃ
-var firstNumber = 12;
-var secondNumber = 4;
-আসাইনমেন্ট অপারেটর
-firstNumber = secondNumber;
-console.log(firstNumber); // output : 4
-বিয়োগ অপারেটরঃ
-console.log(firstNumber - secondNumber); // output : 8
-গুন অপারেটরঃ
-console.log(firstNumber * secondNumber); // output : 48
-ভাগ অপারেটরঃ
-console.log(firstNumber / secondNumber); // output : 3
-মডুলাস অপারেটরঃ
-console.log(firstNumber % secondNumber); // output : ০
+    (=) এইটা আসাইনমেন্ট অপারেটর(একটির মান অন্য একটিতে বসানো), (-) বিয়োগ অপারেটর, (*) গুন অপারেটর, (/)ভাগ অপারেটর, (%) মডুলাস অপারেটর।
+    উদাহরণঃ
+    var firstNumber = 12;
+    var secondNumber = 4;
+    আসাইনমেন্ট অপারেটর
+    firstNumber = secondNumber;
+    console.log(firstNumber); // output : 4
+    বিয়োগ অপারেটরঃ
+    console.log(firstNumber - secondNumber); // output : 8
+    গুন অপারেটরঃ
+    console.log(firstNumber * secondNumber); // output : 48
+    ভাগ অপারেটরঃ
+    console.log(firstNumber / secondNumber); // output : 3
+    মডুলাস অপারেটরঃ
+    console.log(firstNumber % secondNumber); // output : ০
 
 // 10.শর্টহ্যান্ড গুলো জানতে হবে। বিশেষ করে +=, -=, *=, /= জানতে হবে। 
 
-● (+=) সংযোজন অ্যাসাইনমেন্ট অপারেটর একটি ভেরিয়েবলের সাথে সঠিক অপারেন্ডের মান যোগ করে এবং ভেরিয়েবলে ফলাফল বরাদ্দ করে ।
+    ● (+=) সংযোজন অ্যাসাইনমেন্ট অপারেটর একটি ভেরিয়েবলের সাথে সঠিক অপারেন্ডের মান যোগ করে এবং ভেরিয়েবলে ফলাফল বরাদ্দ করে ।
 
-● (-=) বিয়োগ অ্যাসাইনমেন্ট অপারেটর একটি ভেরিয়েবল কে ডান অপারেন্ডের মান বিয়োগ করে এবং ভেরিয়েবলে ফলাফল বরাদ্দ করে ।
+    ● (-=) বিয়োগ অ্যাসাইনমেন্ট অপারেটর একটি ভেরিয়েবল কে ডান অপারেন্ডের মান বিয়োগ করে এবং ভেরিয়েবলে ফলাফল বরাদ্দ করে ।
 
-● (*=) গুন অ্যাসাইনমেন্ট অপারেটর একটি ভেরিয়েবল কে ডান অপারেন্ডের মান গুন করে এবং ভেরিয়েবলে ফলাফল বরাদ্দ করে ।
+    ● (*=) গুন অ্যাসাইনমেন্ট অপারেটর একটি ভেরিয়েবল কে ডান অপারেন্ডের মান গুন করে এবং ভেরিয়েবলে ফলাফল বরাদ্দ করে ।
 
-● (/=) ভাগ অ্যাসাইনমেন্ট অপারেটর একটি ভেরিয়েবল কে ডান অপারেন্ডের মান ভাগ করে এবং ভেরিয়েবলে ফলাফল বরাদ্দ করে ।
+    ● (/=) ভাগ অ্যাসাইনমেন্ট অপারেটর একটি ভেরিয়েবল কে ডান অপারেন্ডের মান ভাগ করে এবং ভেরিয়েবলে ফলাফল বরাদ্দ করে ।
 
 // 11.++ এবং -- এর কাজ কি ? এইটা কি জানো??
-'++' হল ইনক্রিমেন্ট অপারেটর। এটি 1 পরিবর্তনশীল বদ্ধিৃ. x++; x = x + 1 এর সমতুল্য; অথবা x += 1 এর সমতুল্য;
-'--' হল ডিক্রিমেন্ট অপারেটর। এটি 1 পরিবর্তনশীল হ্রাস. x--; x = x - 1 এর সমতুল্য; অথবা x -= 1 এর সমতুল্য;
+    '++' হল ইনক্রিমেন্ট অপারেটর। এটি 1 পরিবর্তনশীল বদ্ধিৃ. x++; x = x + 1 এর সমতুল্য; অথবা x += 1 এর সমতুল্য;
+    '--' হল ডিক্রিমেন্ট অপারেটর। এটি 1 পরিবর্তনশীল হ্রাস. x--; x = x - 1 এর সমতুল্য; অথবা x -= 1 এর সমতুল্য;
 
 
 // 12.parseInt, parseFloat, toFixed এইগুলা কি করে? 
-parseInt ফাংশনটি একটি স্ট্রি ং হিসাবে একটি মান গ্রহন করে এবং পূর্ণস ংখ্যা প্রদান করে ।
-parseFloat() ফাংশনটি একটি স্ট্রি ং গ্রহণ করতে এবং এটিকে একটি ফ্লোটিং-পয়েন্ট নম্বরে রূপান্তর করতে ব্যবহৃত হয়।
-toFixed() ফাংশনটি একটি সংখ্যাকে একটি স্ট্রি ংয়ে রূপান্তর করে এবং এটি স্ট্রি ংটিকে নির্দিষ্ট সংখ্যক দশমিকে রাউন্ড করে ।
+    parseInt ফাংশনটি একটি স্ট্রি ং হিসাবে একটি মান গ্রহন করে এবং পূর্ণস ংখ্যা প্রদান করে ।
+    parseFloat() ফাংশনটি একটি স্ট্রি ং গ্রহণ করতে এবং এটিকে একটি ফ্লোটিং-পয়েন্ট নম্বরে রূপান্তর করতে ব্যবহৃত হয়।
+    toFixed() ফাংশনটি একটি সংখ্যাকে একটি স্ট্রি ংয়ে রূপান্তর করে এবং এটি স্ট্রি ংটিকে নির্দিষ্ট সংখ্যক দশমিকে রাউন্ড করে ।
 
 // 13.Array কি জিনিস। এইটা কিভাবে কাজ করে? কিভাবে Array ডিক্লেয়ার করতে হয় ??
 
-Ans:ভ্যারিএবেলের মত ডিক্লেয়ার করে ,তবে মান রাখতে হয় থার্ড ব্রাকেটের মাঝে,মান গুলোর মাঝে কমা এবং গ্যাপ দিতে হয়।
+    Ans:ভ্যারিএবেলের মত ডিক্লেয়ার করে ,তবে মান রাখতে হয় থার্ড ব্রাকেটের মাঝে,মান গুলোর মাঝে কমা এবং গ্যাপ দিতে হয়।
 
-Array একটি non-primitive ডাটাটাইপ। জাভাস্ক্রিপ্ট অ্যারেগুলি ০ ইনডেক্সড: একটি অ্যারের প্রথম উপাদানটি্র ইনডেক্স 0, দ্বিতীয়টি ইনডেক্স 1 এ, তৃতীয় ইনডেক্স ২ এভাবে চলবে ।
+    Array একটি non-primitive ডাটাটাইপ। জাভাস্ক্রিপ্ট অ্যারেগুলি ০ ইনডেক্সড: একটি অ্যারের প্রথম উপাদানটি্র ইনডেক্স 0, দ্বিতীয়টি ইনডেক্স 1 এ, তৃতীয় ইনডেক্স ২ এভাবে চলবে ।
 
-Array ডিক্লেয়ারঃ
-    ● ভার keyword লেখতে হবে ।
-    ● অ্যারে এর নাম দিতে হবে ।
-    ● ( = ) sign দিতে হবে ।
-    ● তারপর [ ] sign দিতে হবে এবং data গুলকে পাশাপাশি কমা দিয়ে separate রাখতে হবে ।।
-    ● ( ; ) sign দিতে হবে (optional)।
+    Array ডিক্লেয়ারঃ
+        ● ভার keyword লেখতে হবে ।
+        ● অ্যারে এর নাম দিতে হবে ।
+        ● ( = ) sign দিতে হবে ।
+        ● তারপর [ ] sign দিতে হবে এবং data গুলকে পাশাপাশি কমা দিয়ে separate রাখতে হবে ।।
+        ● ( ; ) sign দিতে হবে (optional)।
 // 14.array এর মধ্যে কয়টা উপাদান (element) আছে সেটা কিভাবে বের করে?? 
 
-array.length এই method টি ব্যাবহার করতে হবে ।
+    array.length এই method টি ব্যাবহার করতে হবে ।
 
 
-  উদাহরনঃ
-  The way to find out number of element.
-  var elementNUmber= [23,34,34,345,453,33,12]
-  console.log(elementNUmber.length); // output-৭
-  
-  var friends = [' রহিম', 'কারিম', 'জদু', 'কদু'];
-  console.log(friends.length) // output-4
+    উদাহরনঃ
+    The way to find out number of element.
+    var elementNUmber= [23,34,34,345,453,33,12]
+    console.log(elementNUmber.length); // output-৭
+    
+    var friends = [' রহিম', 'কারিম', 'জদু', 'কদু'];
+    console.log(friends.length) // output-4
 
 15.
 // 1.array এর উপাদান গুলা এর পজিশন ( index) কিভাবে কাজ করে?? 2.কত দিয়ে শুরু হয়??3.মান কিভাবে চেইঞ্জ হয়??
-জাভাস্ক্রিপ্ট অ্যারেগুলি ০ ইনডেক্সড: একটি অ্যারের প্রথম উপাদানটি্র ইনডেক্স 0, দ্বিতীয়টি ইনডেক্স 1 এ, তৃতীয় ইনডেক্স ২ এভাবে চলবে ।
+    জাভাস্ক্রিপ্ট অ্যারেগুলি ০ ইনডেক্সড: একটি অ্যারের প্রথম উপাদানটি্র ইনডেক্স 0, দ্বিতীয়টি ইনডেক্স 1 এ, তৃতীয় ইনডেক্স ২ এভাবে চলবে ।
 1.How index position work??
-var numb = [23,34,45,34,44,34];
-console.log('index position');
-console.log(numb[2]);
-console.log(numb[3]);
-console.log(numb[4]);
-আউটপুটঃ
- index position        
-45
-34
-44
+    var numb = [23,34,45,34,44,34];
+    console.log('index position');
+    console.log(numb[2]);
+    console.log(numb[3]);
+    console.log(numb[4]);
+    আউটপুটঃ
+    index position        
+    45
+    34
+    44
 
 2.Index position Start from where??
-index start from 0.index 0 means frist positional number.
+    index start from 0.index 0 means frist positional number.
 
 3.How to changes value??
-var numbers = [23,34,45,56,67,78,12,12];
-numbers[3] = 65;
-numbers[4] = 1005;
-console.log('Changing value');
-console.log(numbers);
-আউটপুটঃ 
-Changing value        
-[
-    23,   34, 45,
-    65, 1005, 78,
-    12,   12
-  ]
+    var numbers = [23,34,45,56,67,78,12,12];
+    numbers[3] = 65;
+    numbers[4] = 1005;
+    console.log('Changing value');
+    console.log(numbers);
+    আউটপুটঃ 
+    Changing value        
+    [
+        23,   34, 45,
+        65, 1005, 78,
+        12,   12
+    ]
 
 // 16.কোন একটা উপাদানের index এর মান -১ বলতে কি বুঝায় ?জ
 কোন একটা উপাদানের index এর মান -১ বলতে কি বুঝায় ওই উপাদানটি array তে নাই।
@@ -173,69 +173,69 @@ Changing value
 
 অ্যারে এর উপাদানগুলো access করতে অ্যারে এর ইন্ডেক্স ব্যবহার করা হয়।
 
-arrayName[index of which value you wanna get]
-উদাহরণঃ-
-var friends = [' রহিম', 'কারিম', 'জদু', 'কদু'];
-এই অ্যারে টার ২ নং ইন্ডে ক্স এর ভ্যালুহবে
-var valueOfIndexOne = friends[1];
-console.log(valueOfIndexOne);
-output:- ' কারিম'
+    arrayName[index of which value you wanna get]
+    উদাহরণঃ-
+    var friends = [' রহিম', 'কারিম', 'জদু', 'কদু'];
+    এই অ্যারে টার ২ নং ইন্ডে ক্স এর ভ্যালুহবে
+    var valueOfIndexOne = friends[1];
+    console.log(valueOfIndexOne);
+    output:- ' কারিম'
 
-var numbers = [23,34,45,56,67,78,12,12];
-var elem = numbers[3];
-console.log('finding value');
-console.log(elem);
+    var numbers = [23,34,45,56,67,78,12,12];
+    var elem = numbers[3];
+    console.log('finding value');
+    console.log(elem);
 
 
 // 18.কিভাবে কোন একটা index পজিশন এ array এর উপাদান এর মান চেইঞ্জ করতে পারবে??
 
-এভাবে ঃ-
-var friends = [' করিম', 'রহিম', 'জদু', 'কদু'];
-friends[1] = (' আধু');
-console.log(friends);
-output:-
-[' রহিম', 'উদু', 'জদু', 'কদ']
-3.How to changes index position in array??*/
-var numbers = [23,34,45,56,67,78,12,12];
-numbers[3] = 65;
-numbers[4] = 1005;
-console.log('Changing value');
-console.log(numbers);
+    এভাবে ঃ-
+    var friends = [' করিম', 'রহিম', 'জদু', 'কদু'];
+    friends[1] = (' আধু');
+    console.log(friends);
+    output:-
+    [' রহিম', 'উদু', 'জদু', 'কদ']
+    3.How to changes index position in array??*/
+    var numbers = [23,34,45,56,67,78,12,12];
+    numbers[3] = 65;
+    numbers[4] = 1005;
+    console.log('Changing value');
+    console.log(numbers);
 
 // 19.একটা Array এর মধ্যে কোন একটা উপাদান এর মান তোমাকে দেয়া আছে এখন সেটার index তুমি কিভাবে খুঁজে বের করতে পারো?
 
-ভ্যালু থেকে ও ইন্ডেক্সকে acces করতে পারি । 
-এর উপায় হলো arrayName.indexOf( value );
-উদাহরণঃ-
-var friends = [' রহি ম', 'কারি ম', 'জদ', 'কদু'];
-// এই অ্যারেটার ''জদ'ুএর অন্ডে ক্স ভ্যালুহবে
-var indexOfJodu = friends.indexOf( 'জদ')
-console.log(indexOfJodu);
-output:- ২
+    ভ্যালু থেকে ও ইন্ডেক্সকে acces করতে পারি । 
+    এর উপায় হলো arrayName.indexOf( value );
+    উদাহরণঃ-
+    var friends = [' রহি ম', 'কারি ম', 'জদ', 'কদু'];
+    // এই অ্যারেটার ''জদ'ুএর অন্ডে ক্স ভ্যালুহবে
+    var indexOfJodu = friends.indexOf( 'জদ')
+    console.log(indexOfJodu);
+    output:- ২
 
-var numbers = [23,34,45,56,67,78,12,12];
-var positionIndex = numbers.indexOf(67);
-console.log( 'find index number');
-console.log(positionIndex);
+    var numbers = [23,34,45,56,67,78,12,12];
+    var positionIndex = numbers.indexOf(67);
+    console.log( 'find index number');
+    console.log(positionIndex);
 
 
 // 20.ধরো, কোন একটা ইনডেক্স দিয়ে উপাদান খুঁজতে গেছো। কিন্তু সেটার মান না দিয়ে তোমাকে undefined দেখাচ্ছে। সেটা দেখে তুমি কি বুঝবে? (একটু গুগলে সার্চ দাও। আমরা কোর্স এ এইটা আলোচনা করিনি। তারপরেও চেষ্টা করে দেখো)
-আবার আমরা ভ্যাল থেকে ও ইন্ডেক্সকে acces করতে পারি । এর উপায় হলো arrayName.indexOf( value );
-উদাহরণঃ-
-var friends = [' রহি ম', 'কারি ম', 'জদ', 'কদ'];
-এই অ্যারে টার ''জদ'ুএর অন্ডে ক্স ভ্যালুহবে
-var indexOfJodu = friends.indexOf( 'জদ')
-console.log(indexOfJodu);
-output:- ২
+    আবার আমরা ভ্যাল থেকে ও ইন্ডেক্সকে acces করতে পারি । এর উপায় হলো arrayName.indexOf( value );
+    উদাহরণঃ-
+    var friends = [' রহি ম', 'কারি ম', 'জদ', 'কদ'];
+    এই অ্যারে টার ''জদ'ুএর অন্ডে ক্স ভ্যালুহবে
+    var indexOfJodu = friends.indexOf( 'জদ')
+    console.log(indexOfJodu);
+    output:- ২
 
 // 21. কোন একটা Array এর মধ্যে লাস্ট উপাদান হিসেবে কোন উপাদান হিসেবে যোগ করতে চাইলে কিভাৱে যোগ করবে। আবার Array থেকে শেষের উপাদান টা বের করে দিতে চাইলে কিভাবে বের করে দিবে.
  How to add element to an array as the last element of array??
-using the push
-var friends  = ['balam','kaalm','salam','jalam']
-friends.push('pailam')
-console.log('pushing item');
-friends.pop();
-console.log(friends);
+    using the push
+    var friends  = ['balam','kaalm','salam','jalam']
+    friends.push('pailam')
+    console.log('pushing item');
+    friends.pop();
+    console.log(friends);
 
 
    var amrai = ['ratul','rayhan','fahad','abdullah','shawon','rasel','khokon'] 
@@ -243,25 +243,25 @@ console.log(friends);
    console.log('Rohingha added in amrai');
    console.log(amrai);
  How to kick element to an array as the last element of array??
-using the pop
-    var friends  = ['balam','kaalm','salam','jalam']
-    friends.pop();
-    console.log('poping item');
-    console.log(friends);
+    using the pop
+        var friends  = ['balam','kaalm','salam','jalam']
+        friends.pop();
+        console.log('poping item');
+        console.log(friends);
 
 
-   var amrai = ['ratul','rayhan','fahad','abdullah','shawon','rasel','rohingha'] 
-   amrai.pop();
-   console.log('Kick outing Rohingha ');
-   console.log(amrai);
+        var amrai = ['ratul','rayhan','fahad','abdullah','shawon','rasel','rohingha'] 
+        amrai.pop();
+        console.log('Kick outing Rohingha ');
+        console.log(amrai);
 // 22.
 // কোন একটা Array এর মধ্যে প্রথম উপাদান হিসেবে কোন উপাদান হিসেবে যোগ করতে চাইলে কিভাৱে যোগ করবে। আবার Array থেকে প্রথম উপাদান টা বের করে দিতে চাইলে কিভাবে বের করে দিবে
 
-array.shift() ইউস করে করা যায়।
-এই (array.shift) function যে টি শুরু থে কে delete হয়ে ছে সে টি return করে ।
-var friends = [' রহি ম', 'কারি ম', 'জদ', 'কদ'];
-var deleteItem = friends.shift();
-console.log(deleteItem)//' রহিম'
+    array.shift() ইউস করে করা যায়।
+    এই (array.shift) function যে টি শুরু থে কে delete হয়ে ছে সে টি return করে ।
+    var friends = [' রহি ম', 'কারি ম', 'জদ', 'কদ'];
+    var deleteItem = friends.shift();
+    console.log(deleteItem)//' রহিম'
 
 
 23.
