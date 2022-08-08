@@ -29,4 +29,6 @@ shopingCard.mouse = 15;
 console.log(shopingCard);
 shopingCard['mouse'] = 29;
 console.log(shopingCard);
+// shopingCard[mouse] = 89;
+// console.log(shopingCard);
 
